@@ -23,14 +23,9 @@
   - `git pull` ( Cập nhật những cái trên repos trên mạng có mà repos trên máy ko có )
     * git pull => Tự tìm đến nhánh trên máy để pull về
 - Cách tạo một file txt trên GitHub: vào phần `create new file` ở repos để tạo
-  - Hình minh họa 
-![Untitled](https://user-images.githubusercontent.com/52252046/65958070-b4adac80-e478-11e9-86c1-04478665cbcc.png)
-![Untitled2](https://user-images.githubusercontent.com/52252046/65958138-e888d200-e478-11e9-9a4e-058cca2f0257.png)
-![Untitled3](https://user-images.githubusercontent.com/52252046/65958194-081ffa80-e479-11e9-9fb5-92673da254b0.png)
+  - Hình ảnh hướng dẫn [Xem thêm](ImageExample1.md)
 - Cách thêm một người cho repos của bạn
-  - Ảnh minh họa
-![Untitled4](https://user-images.githubusercontent.com/52252046/65958488-b166f080-e479-11e9-9ac5-644ab9d3e220.png)
-![Untitled5](https://user-images.githubusercontent.com/52252046/65958494-b3c94a80-e479-11e9-96b9-e25ce7b20ead.png)
+  - Hình ảnh hướng dẫn [Xem thêm] ImageExample2.md)
 ## Tổng kết
 - Giới thiệu và làm quen các thành viên trong lớp
 - Biết tổng quan về Git, GitHub và các câu lệnh của Git
