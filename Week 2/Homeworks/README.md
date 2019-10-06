@@ -1,12 +1,25 @@
-# Bài 1: Tạo repository với các yêu cầu sau:
+# Bài 1: 
+In ra màn hình dòng chữ “Hello, this is my first appliation”.
+# Bài 2: 
+Nhập 1 số nguyên n từ bàn phím và hiển thị giá trị vừa nhập ra màn hình.
+# Bài 3: 
+Nhập 1 số nguyên n và một số thực m từ bàn phím và hiển thị giá trị vừa nhập ra màn hình. 
+# Bài 4: 
+Nhập 1 số nguyên n, một số thực n, một xâu ký tự từ bàn phím và hiển thị giá trị vừa nhập ra màn hình. 
+# Bài 5: 
+Nhập 2 số nguyên n, m từ bàn phím và hiển thị kết quả là tổng của 2 số này. 
+# Bài 6: 
+Nhập 2 số nguyên n1, m1 ; 2 số thực n2, m2 từ bàn phím. Tính tổng của 2 số nguyên, tổng của 2 số thực, tính tổng của n1+n2 và hiển thị các kết quả ra màn hình. 
+# Bài 7: 
+Tìm max, min của 2 số được nhập vào từ bàn phím 
+# Bài 8: 
+Tìm max, min của 3 số được nhập vào từ bàn phím 
+# Bài 9 (nâng cao): 
+Giải phương trình bậc nhất: ax + b = 0. 
+# Bài 10 (nâng cao): 
+Giải phương trình bậc 2: ax2 + bx +c = 0. 
 
-1. Repos có tên là BTVN_JAVA_2019 kèm 1 Readme có miêu tả sơ qua về repos trên website Github
-2. Clone repository đó về máy vào thư mục desktop.
-3. Tạo 3 file `word`, `excel`, `notepad` có nội dung trong đó.
-4. Sau khi xong thì sử dụng các câu lệnh đã học để push lên trên Github.
-5. Khi đã push lên github bước tiếp theo là tạo một file txt mới bằng website Github và pull nó về máy
-6. Bước cuối cùng là trên trang chủ của repos đó và thêm support đã ghi trong danh sách.
-
+## `Lưu ý:` Làm ít nhất 7 bài tập
 # DEADLINE
 Lớp thứ sáu  | Lớp chủ nhật
 ------------- | -------------
