@@ -1,5 +1,5 @@
 # Bài 1: 
-In ra màn hình dòng chữ `Hello, this is my first appliation`.
+In ra màn hình dòng chữ `Hello, this is my first application`.
 # Bài 2: 
 Nhập 1 số nguyên `n` từ bàn phím và hiển thị giá trị vừa nhập ra màn hình.
 # Bài 3: 
