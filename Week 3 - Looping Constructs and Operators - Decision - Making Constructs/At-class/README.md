@@ -1,4 +1,4 @@
-# Buổi 2: Cấu trúc chương trình, cách thức nhập xuất, kiểu dữ liệu, toán tử, câu lệnh điều kiện
+# Buổi 3: Câu lệnh rẽ nhánh, vòng lặp, hàm ,mảng
 ## Định nghĩa
 - Comming soon
 ## Nội dung bài học
