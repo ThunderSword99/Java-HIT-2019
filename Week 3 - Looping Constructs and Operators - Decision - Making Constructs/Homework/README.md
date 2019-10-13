@@ -57,7 +57,7 @@ Input  | Output
   - Làm bài Hard -> được bỏ 1 bài (<= Normal)
   - Làm bài Extreme -> được bỏ 2 bài (<= Normal)
 
-# DEADLINE
+# :skull: DEADLINE
 Lớp thứ sáu  | Lớp chủ nhật
 ------------- | -------------
 19h tối thứ 4  | 19h tối thứ 6
