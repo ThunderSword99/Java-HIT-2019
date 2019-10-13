@@ -23,7 +23,8 @@ Hiển thị Menu với nội dung như bên dưới:
 
 :warning: Sử dụng vòng lặp, switch case, hàm và mảng để làm bài tập này.
 # Bài 4 (Hard):
-Một chuỗi được gọi là thân thiện khi nó có `hello` trong chuỗi. Bạn được phép bỏ đi 1 kí tự bao nhiêu lần cũng được cho đến khi nào tìm thấy hoặc không tìm thấy chữ `hello`. Hãy in ra `Yes` nếu có thể bỏ các kí tự và tìm được chữ `hello` trong chuỗi và `No` nếu ngược lại
+Một chuỗi được gọi là thân thiện khi nó có `hello` trong chuỗi. Bạn được phép bỏ đi 1 kí tự bao nhiêu lần cũng được cho đến khi nào tìm thấy hoặc không tìm thấy chữ `hello`. Hãy in ra `Yes` nếu có thể bỏ các kí tự và tìm được chữ `hello` trong chuỗi và `No` nếu ngược lại.
+
 VD1:
 
 Input  | Output
@@ -31,13 +32,15 @@ Input  | Output
 `heluulo`  | `Yes`
 
 -> Ở đây mình bỏ `uu` thì chuỗi sẽ biến thành `hello`.
+
 VD2:
 
 Input  | Output
 ------------- | -------------
 `aaaheeeeeellllloo`  | `Yes`
 
--> Ở đây mình bỏ 3 chữ `aaa`,5 chữ `eeeee`, 3 chữ `lll`, 1 chữ `o` thì chuỗi sẽ biến thành `hello`
+-> Ở đây mình bỏ 3 chữ `aaa`,5 chữ `eeeee`, 3 chữ `lll`, 1 chữ `o` thì chuỗi sẽ biến thành `hello`.
+
 VD3:
 
 Input  | Output
@@ -45,6 +48,7 @@ Input  | Output
 `heeeeeeloo`  | `No`
 
 -> Ở đây mình bỏ thế nào cũng ko ra được chữ `hello`.
+
 # Bài 5 (Extreme)
 Tính tổng `a+b` (a<=100000000000000000000000000000000000000000, b<=100000000000000000000000000000000000000000). Hiển thị kết quả `a+b`
 
