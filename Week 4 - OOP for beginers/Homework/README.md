@@ -84,8 +84,9 @@ Professional
 ![image](https://user-images.githubusercontent.com/52252046/67147726-8ece3780-f2c1-11e9-86a2-12754b2900ee.png)
 
 - Nhập và truyền là 2 kiểu khác nhau lưu ý để làm bài.
+- Làm hết bài tập.
 ## :gift: Bonus
-- Bạn nào làm tốt được nhận một chàng vỗ tay nồng nhiệt của cả lớp :)) 
+- Bạn nào làm tốt được nhận một tràng vỗ tay nồng nhiệt của cả lớp :)) 
 # :skull: DEADLINE
 Lớp thứ sáu  | Lớp chủ nhật
 ------------- | -------------
