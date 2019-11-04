@@ -1,3 +1,4 @@
+:speech_balloon: Bài lần này theo cảm nhận của các support khác thì nó khá là trừu tượng và khó hiểu. Nên mình sẽ livestream hoặc làm video để các bạn có thể vào đó xem. Trước lúc đó các bạn sẽ phải cố gắng để làm được hết khả năng có thể
 # Bài 1 (Easy):
 - Tạo dựng mô hình OOP theo đề bài sau: Tạo một Club (câu lạc bộ) gồm n Member (thành viên). Mỗi thành viên đều có mã sinh viên,tên, tuổi, lớp. Hãy nhập và xuất các thành viên trong club có tên là HIT.
 # Bài 2 (Easy):
@@ -15,7 +16,6 @@ Professional
 ![image](https://user-images.githubusercontent.com/52252046/67147726-8ece3780-f2c1-11e9-86a2-12754b2900ee.png)
 - Làm ít nhất 3 bài
 ## :gift: Bonus
-- Bài lần này theo cảm nhận của các support khác thì nó khá là trừu tượng và khó hiểu. Nên mình sẽ livestream hoặc làm video để các bạn có thể vào đó xem.
 - 3 Bạn đạt điểm cao nhất lớp mỗi người sẽ được thưởng một bát tà phớ (trị giá 5k) :))
 # :skull: DEADLINE
 Lớp thứ sáu  | Lớp chủ nhật
