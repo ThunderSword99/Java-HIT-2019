@@ -15,6 +15,7 @@ Professional
 ![image](https://user-images.githubusercontent.com/52252046/67147726-8ece3780-f2c1-11e9-86a2-12754b2900ee.png)
 - Làm ít nhất 3 bài
 ## :gift: Bonus
+- Bài lần này theo cảm nhận của các support khác thì nó khá là trừu tượng và khó hiểu. Nên mình sẽ livestream hoặc làm video để các bạn có thể vào đó xem.
 - 3 Bạn đạt điểm cao nhất lớp mỗi người sẽ được thưởng một bát tà phớ (trị giá 5k) :))
 # :skull: DEADLINE
 Lớp thứ sáu  | Lớp chủ nhật
