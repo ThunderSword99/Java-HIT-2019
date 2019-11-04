@@ -1,80 +1,11 @@
 # Bài 1 (Easy):
-Tạo class Person như bảng trên và thực hiện yêu cầu:
-
-Person  |
-------------- |
-=====Thuộc tính===== |
-`private String name`
-`private int age`
-`private String hobby`
-`private String sex`
-=====Phương thức==== |
-Không có
-
-- Trong class Person
-  - Tạo getter, setter cho các thuộc tính.
-- Tạo class RunMain có hàm main trong đó
-  - Tạo ra 2 đối tượng Person SonNghien và Person TuBueDe (Phải import class Person vào class RunMain).
-  - Dùng Setter truyền vào giá trị thông tin cho 2 đối tượng (Không phải nhập).
-  - Hiển thị thông tin 2 đối tượng.
+- Tạo dựng mô hình OOP theo đề bài sau: Tạo một Club (câu lạc bộ) gồm n Member (thành viên). Mỗi thành viên đều có mã sinh viên,tên, tuổi, lớp. Hãy nhập và xuất các thành viên trong club có tên là HIT.
 # Bài 2 (Easy):
-Tạo class Dog và thực hiện yêu cầu:
-
-Dog  |
-------------- |
-=========Thuộc tính======== |
-`private String name`
-`private int MP=100`
-=========Phương thức======= |
-`public void InputName(String name)`
-`public void ShowMP()`
-`public void Bark ()`
-
-- Trong class Dog
-  - Phương thức InputName: sẽ cho phép truyền tên vào. (hàm này sẽ giống như setter).
-  - Phương thức ShowMP: hiển thị ra MP.
-  - Phương thức Bark: sẽ in ra màn hình `Tên + sủa` (Lưu ý ko đặt tên trùng với các leader hoặc sp ko ăn án tử nhé :v), đồng thời mất 20 MP. Nếu chưa điền tên sẽ hiển thị `Xin lỗi bạn chưa điền tên`.
-- Tạo class RunMain có hàm main trong đó
-  - Tạo ra 1 đối tượng (Phải import class Dog vào class RunMain).
-  - Cho đối tượng thực hiện 3 lần phương thức Bark(), sau mỗi lần sử dụng sẽ gọi ra phương thức ShowMP() để kiểm tra số MP còn lại
-    - VD: a.Bark() -> a.ShowMP() -> a.Bark() -> a.ShowMP() -> ....
+- Tạo dựng mô hình OOP theo đề bài sau: Một Knight (hiệp sĩ) có name (tên), HP (máu), MP (năng lượng); Knight có thể sử dụng kĩ năng Heal (hồi máu) để hổi 30 máu và năng lượng mất đi là 50, anh ta ko thể sử dụng kĩ năng khi ko có năng lượng. Tạo một Knight và cho anh ta sử dụng kĩ năng và hiển thị ra thông số sau mỗi lần sử dụng.
 # Bài 3 (Normal):
-Tạo class Student và class JavaClass với:
-
-Student  |
-------------- |
-=====Thuộc tính===== |
-`private String name`
-`private String code`
-`private int age`
-=====Phương thức==== |
-`public void InputInfo()`
-`public void ShowInfo()`
-
-JavaClass  |
-------------- |
-=====Thuộc tính===== |
-`private Student stdList[]`
-`private int ratingStar`
-=====Phương thức==== |
-`private void InputStudent()`
-`private void ShowStudent()`
-`public void InputClassInfo()`
-`public void ShowClassInfo()`
-
-- Trong class Student
-  - Phương thức InputInfo: Nhập tất cả dữ liệu của Student.
-  - Phương thức ShowInfo: Hiển thị tất cả thông tin của Student trên một dòng.
-    - VD: "Tên: Thụ, mã sv: 2017602543, tuổi: 20"
-- Trong class JavaClass
-  - Phương thức InputStudent: Trong phương thức này có nhập n là số sinh viên trong lớp, dùng for để nhập từng thành viên trong lớp.
-  - Phương thức ShowStudent: Sử dụng vòng for để hiển thị ra tất sinh viên trong lớp.
-  - Phương thức InputClassInfo: Nhập tên leader, đánh giá chất lượng ratingStar cho lớp đồng thời gọi phương thức InputStudent.
-  - Phương thức ShowClassInfo: Hiển thị tên leader và đánh giá ratingStar rồi gọi phương thức ShowStudent.
-- Tạo class RunMain có hàm main trong đó
-  - Tạo ra 1 đối tượng JavaClass.
-  - Nhập và xuất ra class đó.
-
+- Tạo dựng mô hình OOP theo đề bài sau: Trong câu lạc bộ Hit có một vài bạn xích mích với nhau. Nên a Thụ, một người yêu hòa bình, quyết định tạo ra một BattleField (sàn đấu) gồm 2 Human (người) để đánh nhau. Trong đó mỗi Human có name (tên), HP (máu), dmg (sát thương) và hành động Attack (đánh). Trên sàn đấu tạo ra 2 người để đánh nhau, người thứ nhất sẽ đánh 4 lần vào người thứ hai, người thứ hai sẽ đánh 5 lần vào người thứ nhất, mỗi lần đánh sẽ hiển thị thông số 2 người. Người có máu cao hơn sẽ dành chiến thắng. In ra màn hình người đó.
+# Bài 4 (Hard):
+- Cũng giống như bài 3. Nhưng lần này 2 đối thủ của chúng ta sẽ lần lượt đánh, sau mỗi lượt đánh sẽ hiển thị ra thông số của 2 người đồng thời trận chiến sẽ kết thúc khi có một người máu <= 0. In ra người chiến thắng
 ## :warning: `Lưu ý:`
 - Có 2 cách sắp đặt class như dưới đây.
 
@@ -83,10 +14,9 @@ Newbie
 Professional
 ![image](https://user-images.githubusercontent.com/52252046/67147726-8ece3780-f2c1-11e9-86a2-12754b2900ee.png)
 
-- Nhập và truyền là 2 kiểu khác nhau lưu ý để làm bài.
 ## :gift: Bonus
-- Bạn nào làm tốt được nhận một chàng vỗ tay nồng nhiệt của cả lớp :)) 
+- 3 Bạn đạt điểm cao nhất lớp mỗi người sẽ được thưởng một bát tà phớ (trị giá 5k) :))
 # :skull: DEADLINE
 Lớp thứ sáu  | Lớp chủ nhật
 ------------- | -------------
-19h tối thứ 4  | 19h tối thứ 6
+19h tối thứ 5  | 19h tối thứ 7
