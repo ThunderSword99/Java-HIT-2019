@@ -1,7 +1,7 @@
 # Bài 1 (Easy):
 - Tạo dựng mô hình OOP theo đề bài sau: Tạo một Club (câu lạc bộ) gồm n Member (thành viên). Mỗi thành viên đều có mã sinh viên,tên, tuổi, lớp. Hãy nhập và xuất các thành viên trong club có tên là HIT.
 # Bài 2 (Easy):
-- Tạo dựng mô hình OOP theo đề bài sau: Một Knight (hiệp sĩ) có name (tên), HP (máu), MP (năng lượng); Knight có thể sử dụng kĩ năng Heal (hồi máu) để hổi 30 máu và năng lượng mất đi là 50, anh ta ko thể sử dụng kĩ năng khi ko có năng lượng. Tạo một Knight và cho anh ta sử dụng kĩ năng và hiển thị ra thông số sau mỗi lần sử dụng.
+- Tạo dựng mô hình OOP theo đề bài sau: Một Knight (hiệp sĩ) có name (tên), HP (máu), MP (năng lượng); Knight có thể sử dụng kĩ năng Heal (hồi máu) để hổi 30 máu và năng lượng mất đi là 50, anh ta ko thể sử dụng kĩ năng khi ko đủ năng lượng. Tạo một Knight và cho anh ta sử dụng kĩ năng và hiển thị ra thông số sau mỗi lần sử dụng.
 # Bài 3 (Normal):
 - Tạo dựng mô hình OOP theo đề bài sau: Trong câu lạc bộ Hit có một vài bạn xích mích với nhau. Nên a Thụ, một người yêu hòa bình, quyết định tạo ra một BattleField (sàn đấu) gồm 2 Human (người) để đánh nhau. Trong đó mỗi Human có name (tên), HP (máu), dmg (sát thương) và hành động Attack (đánh). Trên sàn đấu tạo ra 2 người để đánh nhau, người thứ nhất sẽ đánh 4 lần vào người thứ hai, người thứ hai sẽ đánh 5 lần vào người thứ nhất, mỗi lần đánh sẽ hiển thị thông số 2 người. Người có máu cao hơn sẽ dành chiến thắng. In ra màn hình người đó.
 # Bài 4 (Hard):
