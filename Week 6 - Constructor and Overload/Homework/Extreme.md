@@ -1,23 +1,59 @@
-:speech_balloon: Bài lần này theo cảm nhận của các support khác thì nó khá là trừu tượng và khó hiểu. Nên mình sẽ livestream hoặc làm video để các bạn có thể vào đó xem. Trước lúc đó các bạn sẽ phải cố gắng để làm được hết khả năng có thể
-# Bài 1 (Easy):
-- Tạo dựng mô hình OOP theo đề bài sau: Tạo một Club (câu lạc bộ) gồm n Member (thành viên). Mỗi thành viên đều có mã sinh viên,tên, tuổi, lớp. Hãy nhập và xuất các thành viên trong club có tên là HIT.
-# Bài 2 (Easy):
-- Tạo dựng mô hình OOP theo đề bài sau: Một Knight (hiệp sĩ) có name (tên), HP (máu), MP (năng lượng); Knight có thể sử dụng kĩ năng Heal (hồi máu) để hổi 30 máu và năng lượng mất đi là 50, anh ta ko thể sử dụng kĩ năng khi ko đủ năng lượng. Tạo một Knight và cho anh ta sử dụng kĩ năng và hiển thị ra thông số sau mỗi lần sử dụng.
-# Bài 3 (Normal):
-- Tạo dựng mô hình OOP theo đề bài sau: Trong câu lạc bộ Hit có một vài bạn xích mích với nhau. Nên a Thụ, một người yêu hòa bình, quyết định tạo ra một BattleField (sàn đấu) gồm 2 Human (người) để đánh nhau. Trong đó mỗi Human có name (tên), HP (máu), dmg (sát thương) và hành động Attack (đánh). Trên sàn đấu tạo ra 2 người để đánh nhau, người thứ nhất sẽ đánh 4 lần vào người thứ hai, người thứ hai sẽ đánh 5 lần vào người thứ nhất, mỗi lần đánh sẽ hiển thị thông số 2 người. Người có máu cao hơn sẽ dành chiến thắng. In ra màn hình người đó.
-# Bài 4 (Hard):
-- Cũng giống như bài 3. Nhưng lần này 2 đối thủ của chúng ta sẽ lần lượt đánh, sau mỗi lượt đánh sẽ hiển thị ra thông số của 2 người đồng thời trận chiến sẽ kết thúc khi có một người máu <= 0. In ra người chiến thắng
-## :warning: `Lưu ý:`
-- Có 2 cách sắp đặt class như dưới đây.
+Bài tập lớn:
+Cho game gồm chi tiết như sau:
+========================================================
+- Có 2 đối tượng: Player (người chơi) và Monster (quái thú)
+======================Player============================
+- Player gồm: cung thủ (archers), hiệp sĩ (knight).
+  
+  (1) Cung thủ
+  - Thuộc tính:
+    - Máu: 150
+    - MP: 150
+  - Phương thức:
+    - Bắn chay (hit): gây 30 sát thương lên mục tiêu
+    - Bắn tên (aim): Mất 30 MP để sự dụng, gây 100 sát thương và giảm giáp đối phương đi 10
+    - Nhận sát thương (get_dame): Nhận sát thương của đối thủ
+    - Chết (dead): Máu nhỏ hơn bằng 0
+    - Hiển thị thông số (show_info): Hiển thị thuộc tính
 
-Newbie
-![image](https://user-images.githubusercontent.com/52252046/67147697-34cd7200-f2c1-11e9-94ee-12dcd0d0bb17.png)
-Professional
-![image](https://user-images.githubusercontent.com/52252046/67147726-8ece3780-f2c1-11e9-86a2-12754b2900ee.png)
-- Làm ít nhất 3 bài
-## :gift: Bonus
-- 3 Bạn đạt điểm cao nhất lớp mỗi người sẽ được thưởng một bát tà phớ (trị giá 5k) :))
-# :skull: DEADLINE
-Lớp thứ sáu  | Lớp chủ nhật
-------------- | -------------
-19h tối thứ 5  | 19h tối thứ 7
+  (2) Hiệp sĩ
+  - Thuộc tính:
+    - Máu: 200
+    - MP:100
+  - Phương thức:
+    - Chém chay (hit): gây 40 sát thương lên mục tiêu
+    - Bật lá chắn (shield): Mất 30 MP. Giảm 50% sát thương nhận phải trong 3 lần bị tấn công
+    - Nhận sát thương (get_dame): Nhận sát thương của đối thủ
+    - Chết (dead): Máu nhỏ hơn bằng 0
+    - Hiển thị thông số (show_info): Hiển thị thuộc tính
+
+======================Monsters============================
+- Monsters gồm: Hổ
+
+  (1) Hổ
+  - Thuộc tính:
+    - Máu: 500
+    - Giáp: 20
+  - Phương thức:
+    - Thổi lửa (fire blowwing): gây 30 sát thương lên tướng 
+    - Nhận sát thương (get_dame): Nhận sát thương của đối thủ
+    - Chết (death): Máu nhỏ hơn bằng 0
+    - Hiển thị thông số (show_info): Hiển thị thuộc tính
+
+  ==================Thể thức=========================
+  - Tạo sân đấu cho 2 đối thủ (1 Player, 1 Monster). Player sẽ lựa chọn một trong các nghề như trên. Monster thì mặc định là Hổ.
+  - Chọn xem ai đánh trước.
+  - Cho 2 nhân vật đánh nhau theo từng lượt với yêu cầu:
+   
+   (1) Hiển thị ra lượt đánh của ai
+   
+   (2) Lượt của kẻ nào thì sẽ hiển thị danh sách kĩ năng của kẻ đó
+   
+  - Nếu 1 trong 2 kẻ chết trước. Kẻ còn lại dành chiến thắng
+
+=====================Lưu ý==========================
+- Không thể sử dụng quá mana hiện có
+- Lượng giáp sẽ được trừ đi khi nhận sát thương: Ví dụ như gây 20 sát thương với địch có 10 giáp => Địch bị trừ 10 máu
+Một số hình ảnh minh họa trò chơi.
+![image](https://user-images.githubusercontent.com/52252046/68590059-348b5580-04c0-11ea-872e-fdfc2981ac50.png)
+![image](https://user-images.githubusercontent.com/52252046/68590203-8a5ffd80-04c0-11ea-91cb-74d1e3d8b081.png)
