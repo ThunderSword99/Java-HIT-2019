@@ -1,7 +1,7 @@
 Bài tập lớn:
 Cho game gồm chi tiết như sau:
 ========================================================
-- Có 2 đối tượng: Player (người chơi) và Monster (quái thú)
+- Trò chơi: chia làm 2 phe. Một bên là người chơi (Player) một bên là quái thú (Monster). Quái thú và người chơi được đưa vào sân đấu (BattleField) để chiến đấu cho đến khi 1 trong 2 phải tử trận.
 ======================Player============================
 - Player gồm: cung thủ (archers), hiệp sĩ (knight).
   
