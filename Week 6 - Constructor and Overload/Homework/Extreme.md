@@ -22,7 +22,7 @@ Cho game gồm chi tiết như sau:
     - MP:100
   - Phương thức:
     - Chém chay (hit): gây 40 sát thương lên mục tiêu
-    - Bật lá chắn (shield): Mất 30 MP. Giảm 50% sát thương nhận phải trong 3 lần bị tấn công
+    - Bật lá chắn (shield): Mất 50 MP để sự dụng, gây 100 sát thương và giảm giáp đối phương đi 30
     - Nhận sát thương (get_dame): Nhận sát thương của đối thủ
     - Chết (dead): Máu nhỏ hơn bằng 0
     - Hiển thị thông số (show_info): Hiển thị thuộc tính
