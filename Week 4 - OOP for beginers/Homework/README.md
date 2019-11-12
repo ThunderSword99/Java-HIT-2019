@@ -85,7 +85,7 @@ Professional
 
 - Nhập và truyền là 2 kiểu khác nhau lưu ý để làm bài.
 ## :gift: Bonus
-- Bạn nào làm tốt được nhận một tràng vỗ tay nồng nhiệt của cả lớp :)) 
+- Bạn nào làm tốt được nhận một chàng vỗ tay nồng nhiệt của cả lớp :)) 
 # :skull: DEADLINE
 Lớp thứ sáu  | Lớp chủ nhật
 ------------- | -------------
