@@ -7,8 +7,9 @@ Cho game gồm chi tiết như sau:
   
   (1) Cung thủ
   - Thuộc tính:
-    - Máu: 150
+    - Máu: 200
     - MP: 150
+    - Giáp: 10
   - Phương thức:
     - Bắn chay (hit): gây 30 sát thương lên mục tiêu
     - Bắn tên (aim): Mất 30 MP để sự dụng, gây 100 sát thương và giảm giáp đối phương đi 10
@@ -18,8 +19,9 @@ Cho game gồm chi tiết như sau:
 
   (2) Hiệp sĩ
   - Thuộc tính:
-    - Máu: 200
+    - Máu: 150
     - MP:100
+    - Giáp: 20
   - Phương thức:
     - Chém chay (hit): gây 40 sát thương lên mục tiêu
     - Bật lá chắn (shield): Mất 50 MP để sự dụng, gây 100 sát thương và giảm giáp đối phương đi 30
