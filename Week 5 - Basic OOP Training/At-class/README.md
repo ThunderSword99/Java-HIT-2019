@@ -1,4 +1,4 @@
-# Buổi 3: Câu lệnh rẽ nhánh, vòng lặp, hàm ,mảng
+# Buổi 5: Bài kiểm tra
 ## Định nghĩa
 - Comming soon
 ## Nội dung bài học
