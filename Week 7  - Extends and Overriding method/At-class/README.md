@@ -1,4 +1,4 @@
-# Buổi 6: Khởi tạo có đối, không đối và phương thức nạp chồng
+# Buổi 7: Kế thừa, phương thức ghì đè, constructor ghì đè nâng cao
 ## Định nghĩa
 - Comming soon
 ## Nội dung bài học
