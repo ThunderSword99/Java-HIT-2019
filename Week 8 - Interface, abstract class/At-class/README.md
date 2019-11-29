@@ -1,4 +1,4 @@
-# Buổi 7: Kế thừa, phương thức ghì đè, constructor ghì đè nâng cao
+# Buổi 8: Tính giao diện, trừu tượng
 ## Định nghĩa
 - Comming soon
 ## Nội dung bài học
