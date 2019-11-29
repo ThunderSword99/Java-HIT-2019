@@ -1,4 +1,4 @@
-:speech_balloon: Bài tập về nhà tuần tạm chưa có.
+:speech_balloon: Bài tập về nhà tuần này tạm chưa có.
 
 ## :gift: Bonus
 
