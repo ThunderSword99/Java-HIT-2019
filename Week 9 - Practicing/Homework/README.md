@@ -71,8 +71,8 @@ PhoneBook  |
 - Yêu cầu: Tạo PhoneBook lưu trữ `n` CustomerPhone đồng thời sử dụng được các hàm void. Tạo constructor cho mỗi class.
 
 - Chú thích thêm: 
-  `SearchByName(String name)` sẽ nằm trong `ShowCustomerPhoneBookByName()`.
-  `SearchByAge(int age1,int age2)` với age1,age2 nghĩa là từ age1-> age2 và class này nằm trong `ShowCustomerPhoneBookByAge()`.
+  - `SearchByName(String name)` sẽ nằm trong `ShowCustomerPhoneBookByName()`.
+  - `SearchByAge(int age1,int age2)` với age1,age2 nghĩa là từ age1-> age2 và class này nằm trong `ShowCustomerPhoneBookByAge()`.
   
 ## :warning: `Lưu ý:`
 - Có 2 lựa chọn:
