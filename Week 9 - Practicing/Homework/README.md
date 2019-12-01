@@ -58,9 +58,9 @@ CustomerPhone  |
 
 PhoneBook  |
 ------------- |
-=====Thuộc tính===== |
+============Thuộc tính=========== |
 `private ArrayList <CustomerPhone> PhoneBook`
-=====Phương thức==== |
+============Phương thức========== |
 `void AddCustomerPhone(CustomerPhone A)`
 `CustomerPhone SearchByName(String name)`
 `void ShowCustomerPhoneBookByName()`
