@@ -48,7 +48,7 @@ ToTien ToThu10 = new ToTien("C7H10OTHAI13","10k");
  .    |`Ma to tien: G3C5WHZ3FDE324, loai tien: 5k`
  
  # Câu 3
- - Đề bài: Tạo 2 class PhoneBook kế thừa CustomerPhone để thực hiện bài toán sau:
+ - Đề bài: Tạo 2 class SoLienLac kế thừa TenLienLac để thực hiện bài toán sau:
 
 TenLienLac  |
 ------------- |
