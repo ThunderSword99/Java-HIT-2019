@@ -39,7 +39,7 @@ ToTien ToThu10 = new ToTien("C7H10OTHAI13","10k");
 
 (2) HienThiThongTin() các tờ có tổng các chữ số trong mã chia hết cho loại tiền. Ví dụ: `ToTien("HIT18082010","5k")` vì `1+8+0+8+2+0+1+0 % 5 <=> 20 % 5 == 0` hoặc `ToTien("HIT18082010","10k")` vì `1+8+0+8+2+0+1+0 % 5 <=> 20 % 10 == 0`
 
-(3) Nhập k là số tiền cần đổi. HienThiThongTin() 3 tờ tiền có loại tiền cộng lại = k (1<=k<=20) đồng thời mã các chữ số trong tờ tiền đó phải chia hết cho 2, các tờ phải khác nhau. Nếu không có in ra là Không có
+(3) Nhập k là số tiền cần đổi. HienThiThongTin() 3 tờ tiền có loại tiền cộng lại = k (1<=k<=20) đồng thời tổng mã các chữ số trong tờ tiền đó phải chia hết cho 2, các tờ phải khác nhau. Nếu không có in ra là Không có
 
   Input  | Output
 ------------- | -------------
